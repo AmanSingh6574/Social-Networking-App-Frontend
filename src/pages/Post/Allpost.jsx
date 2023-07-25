@@ -46,7 +46,7 @@ function Allpost() {
   };
   useEffect(() => {
     getallPost();
-  }, [dispatch]);
+  }, []);
 
   return (
     <div>
